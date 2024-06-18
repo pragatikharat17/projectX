@@ -33,6 +33,8 @@ def bleu_score(references, candidate):
     return bleu
 
 # Test cases
+
+# test case 1
 references_1 = [
     "It is a guide to action that ensures that the military will forever heed Party commands",
     "It is the guiding principle which guarantees the military forces always being under the command of the Party",
@@ -40,6 +42,7 @@ references_1 = [
 ]
 candidate_1 = "It is a guide to action which ensures that the military always obeys the commands of the party"
 
+# test case 2
 references_2 = [
     "It is a guide to action that ensures that the military will forever heed Party commands",
     "It is the guiding principle which guarantees the military forces always being under the command of the Party",
@@ -47,13 +50,14 @@ references_2 = [
 ]
 candidate_2 = "It is the to action the troops forever hearing the activity guidebook that party direct"
 
-# Additional test cases with different references
+# test case 3
 references_3 = [
     "The cat is on the mat",
     "The cat sits on the mat"
 ]
 candidate_3 = "A cat is on the mat"
 
+# test case 4
 references_4 = [
     "The cat is on the mat",
     "The cat sits on the mat"
